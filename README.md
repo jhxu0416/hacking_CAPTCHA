@@ -6,7 +6,8 @@ Initial idea and training sets: [reference_0](http://python.jobbole.com/89004/)
 
 ## Data set
 
-Data set is in [s3](s3://captcha-training-img/wordpress.zip)
+Data set is in s3: (s3://captcha-training-img/wordpress.zip)
 
+## Extracting single character from given CAPTCHA
 
-Still under developing...
+Given CAPTCHA, use openCV to find contour of each charachter, and save them into training dir. [Detail](../src/extract_character.ipynb)
