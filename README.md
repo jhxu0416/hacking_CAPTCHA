@@ -8,6 +8,12 @@ Initial idea and training sets: [reference_0](http://python.jobbole.com/89004/)
 
 Data set is in s3: (s3://captcha-training-img/wordpress.zip)
 
-## Extracting single character from given CAPTCHA
+## Methodology
 
-Given CAPTCHA, use openCV to find contour of each charachter, and save them into training dir. [Detail](../src/extract_character.ipynb)
+### Extracting single character from given CAPTCHA
+
+Given CAPTCHA, use openCV to find contour of each charachter, and save them into training dir. [../src/extract_character.ipynb]<Detail>
+
+### Train the neural network for single character
+
+<img src="../src/captcha_model.png" />
